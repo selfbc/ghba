@@ -15,15 +15,19 @@ run 'go build -o ghba ghba.go'
 ## Usage
 
 Usage of ./ghba:
+
   -l string
     	CIDR list of IPs to scan (default "192.168.0.0/24")
+
   -o string
     	File output of found records (default "output.txt")
   -t int
     	Number of threads to use (default 32)
+
   -v	Verbose mode
 
 Example Usage:
+
 To scan an entire private class C, you would run './ghba -l 192.168.0.0/16'
 
 ## Authors and acknowledgment
