@@ -14,6 +14,8 @@ Download ghba.go
 
 run 'go mod init ghba.go'
 
+run 'go mod clean'
+
 run 'go build -o ghba ghba.go'
 
 ## Usage
