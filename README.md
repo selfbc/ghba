@@ -7,7 +7,9 @@ ghba is a PTR record scanner ported from ghba.c.  It's been enhanced to run much
 ## Installation
 
 Download ghba.go
+
 run 'go mod init ghba.go'
+
 run 'go build -o ghba ghba.go'
 
 ## Usage
