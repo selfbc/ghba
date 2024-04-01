@@ -2,7 +2,7 @@
 
 ## Description
 
-ghba is a PTR record scanner ported from ghba.c.  It's been enhanced to run much faster than the original ghba.c.  It can scan an entire private class C network in under a minute if 32 threads are available. 
+ghba is a PTR record (reverse DNS) scanner.  It is a Golang rewrite of ghba.c that runs much faster than the original ghba.c.  It can scan an entire private class C network in under a minute if 32 threads are available. 
 
 ## Requirements
 
