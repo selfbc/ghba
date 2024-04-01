@@ -4,6 +4,10 @@
 
 ghba is a PTR record scanner ported from ghba.c.  It's been enhanced to run much faster than the original ghba.c.  It can scan an entire private class C network in under a minute if 32 threads are available. 
 
+## Requirements
+
+Golang (go) 1.13 or newer (older version may work but haven't been tested in a long time)
+
 ## Installation
 
 Download ghba.go
@@ -28,7 +32,7 @@ Usage of ./ghba:
     	Number of threads to use (default 32)
 
   -v
-  
+
       Verbose mode
 
 Example Usage:
