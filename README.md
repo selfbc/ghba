@@ -24,10 +24,12 @@ Usage of ./ghba:
 
     	File output of found records (default "output.txt")
   -t int
-  
+
     	Number of threads to use (default 32)
 
-  -v	Verbose mode
+  -v
+  
+      Verbose mode
 
 Example Usage:
 
