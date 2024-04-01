@@ -1,4 +1,4 @@
-# ghba
+# ghba (get host by address)
 
 ## Description
 
